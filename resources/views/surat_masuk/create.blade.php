@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="text-xl font-semibold">Tambah Surat Masuk</h2>
+        <h2 class="text-xl font-semibold dark:bg-slate-200">Tambah Surat Masuk</h2>
     </x-slot>
 
     <div class="py-12">

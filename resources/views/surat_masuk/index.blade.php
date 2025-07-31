@@ -9,7 +9,7 @@
     <div class="py-6 flex justify-center">
         
 
-        <table class="mt-4 w-3/4 table-auto rounded bg-white text-center shadow dark:bg-gray-800 dark:text-gray-200">
+        <table class="mt-4 w-3/4 table-auto rounded bg-gray-200 text-center shadow dark:bg-gray-800 dark:text-gray-200">
             <thead>
                 <tr class="bg-gray-200 text-left">
                     <th class="p-2">Tanggal</th>

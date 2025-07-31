@@ -38,9 +38,9 @@
 
             @if ($role === 'pengirim')
                 <li>
-                    <a href="{{ route('surat_masuk.create') }}"
-                        class="block rounded px-3 py-2 text-gray-800 hover:bg-gray-200 dark:text-gray-100 dark:hover:bg-gray-700">Buat
-                        Surat</a>
+                    <a href="{{ route('surat_masuk.index') }}"
+                        class="block rounded px-3 py-2 text-gray-800 hover:bg-gray-200 dark:text-gray-100 dark:hover:bg-gray-700">Surat
+                        Masuk</a>
                 </li>
             @endif
         </ul>

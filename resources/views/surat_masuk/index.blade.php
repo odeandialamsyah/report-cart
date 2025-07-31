@@ -3,15 +3,15 @@
         <h2 class="text-xl font-semibold dark:text-gray-200">Daftar Surat Masuk</h2>
     </x-slot>
 
-    <a href="{{ route('surat_masuk.create') }}"
-            class="bg-blue-600 px-4 py-2 text-black dark:bg-blue-600 dark:text-gray-200">+ Tambah Surat</a>
+    <a href="{{ route('surat_masuk.create') }}" class="bg-blue-600 px-4 py-2 dark:bg-blue-600 dark:text-gray-200">+ Tambah
+        Surat</a>
 
-    <div class="py-6 flex justify-center">
-        
+    <div class="flex justify-center py-6">
 
-        <table class="mt-4 w-3/4 table-auto rounded bg-gray-200 text-center shadow dark:bg-gray-800 dark:text-gray-200">
+
+        <table class="mt-4 w-3/4 table-auto rounded">
             <thead>
-                <tr class="bg-gray-200 text-left">
+                <tr class="text-center hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-700">
                     <th class="p-2">Tanggal</th>
                     <th class="p-2">Asal</th>
                     <th class="p-2">Nomor</th>

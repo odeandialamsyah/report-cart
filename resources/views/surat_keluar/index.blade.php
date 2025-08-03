@@ -4,7 +4,7 @@
     </x-slot>
 
     <a href="{{ route('surat_keluar.create') }}"
-        class="bg-blue-600 px-4 py-2 text-black dark:bg-blue-600 dark:text-gray-200">+ Tambah Surat Keluar</a>
+        class="bg-blue-600 px-4 py-2 text-white dark:bg-blue-600">+ Tambah Surat Keluar</a>
 
     <div class="flex justify-center py-6">
 
@@ -23,7 +23,7 @@
             </thead>
             <tbody>
                 @foreach ($surat as $item)
-                    <tr class="text-center hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-700">
+                    <tr class="text-center hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-700 dark:">
                         <td class="p-2">{{ $item->tanggal }}</td>
                         <td class="p-2">{{ $item->asal }}</td>
                         <td class="p-2">{{ $item->nomor }}</td>
